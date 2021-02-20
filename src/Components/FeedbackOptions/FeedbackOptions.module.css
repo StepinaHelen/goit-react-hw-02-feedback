@@ -1,0 +1,22 @@
+.button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+}
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+.good {
+  composes: button;
+  background-color: rgb(41, 233, 51);
+}
+.bad {
+  composes: button;
+  background-color: red;
+}
+.neutral {
+  composes: button;
+  background-color: rgb(255, 251, 0);
+}

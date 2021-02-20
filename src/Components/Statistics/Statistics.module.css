@@ -1,0 +1,13 @@
+p {
+  max-width: 75px;
+  border-radius: 5px;
+}
+.good {
+  background-color: rgb(41, 233, 51);
+}
+.bad {
+  background-color: red;
+}
+.neutral {
+  background-color: rgb(255, 251, 0);
+}
