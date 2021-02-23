@@ -2,7 +2,7 @@ p {
   max-width: 75px;
   border-radius: 5px;
 }
-.good {
+/* .good {
   background-color: rgb(41, 233, 51);
 }
 .bad {
@@ -10,4 +10,8 @@ p {
 }
 .neutral {
   background-color: rgb(255, 251, 0);
+} */
+
+.total {
+  max-width: 200px;
 }

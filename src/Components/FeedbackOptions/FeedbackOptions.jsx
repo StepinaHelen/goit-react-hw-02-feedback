@@ -22,11 +22,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 
 FeedbackOptions.propTypes = {
   onLeaveFeedback: PropTypes.func.isRequired,
-  options: PropTypes.arrayOf(
-    PropTypes.shape({
-      option: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
+  options: PropTypes.array.isRequired,
 };
 
 export default FeedbackOptions;
